@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
 })
 export class BodyComponent {
   /*title = 'app';*/
+public mostrar:boolean=false;
+
+ public frase:any={
+   mensaje:"Black Dog",
+   autor:"Led Zeppelin"
+ };
+
+sevenGuitar:string[]=["Jimi Hendrix", "Richie Blackmoore", "Paul Kosoff", "Jimmy Page", "Tommy Iommy"];
 
 }
